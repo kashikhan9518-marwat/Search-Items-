@@ -1,0 +1,31 @@
+body {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+background-color: #f4f4f4;
+margin: 0;
+padding: 20px;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f90;
+    border-radius: 15px;
+}
+#searchlist {
+    list-style-type:none;
+    padding: 0;
+}
+#searchlist li {
+padding: 10px;
+background-color: #fff;
+margin-bottom: 5px;
+border: 2px solid #ddd;
+border-radius: 15px;
+}
+#searchlist li.hidden {
+    display: none;
+}
